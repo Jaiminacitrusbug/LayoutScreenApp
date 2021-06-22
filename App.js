@@ -23,7 +23,7 @@ const App = () => {
   return (
     <>
       <NavigationContainer>
-        <Stack.Navigator initialRouteName="BasicComponent">
+        <Stack.Navigator initialRouteName="WelcomeResponsiveScreen">
           <Stack.Screen name="Home" component={WelcomeScreen} />
           <Stack.Screen name="ViewImage" component={ViewImageScreen} />
           <Stack.Screen

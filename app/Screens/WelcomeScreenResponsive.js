@@ -28,7 +28,7 @@ const WelcomeScreenResponsive = props => {
       </View>
       <TouchableOpacity
         style={styles.buttonStart}
-        onPress={() => props.navigation.navigate('ViewImage')}>
+        onPress={() => props.navigation.navigate('ViewImageResponsiveScreen')}>
         <Text style={styles.getStartedText}>Get Started</Text>
       </TouchableOpacity>
       <View style={styles.loginButton} />
